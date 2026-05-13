@@ -31,6 +31,8 @@ public class StandaloneTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://rahulshettyacademy.com/client/#/auth/login");
 		System.out.println(driver.getTitle());
+		System.out.println("Git testing1");
+		System.out.println("Git testing2");
 		
 		LandingPage landingPage = new LandingPage(driver); //this driver will pass to LandingPage class
 		
