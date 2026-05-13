@@ -33,6 +33,9 @@ public class StandaloneTest {
 		System.out.println(driver.getTitle());
 		System.out.println("Git testing1");
 		System.out.println("Git testing2");
+		System.out.println("Git testing3");
+		System.out.println("Git testing4");
+		System.out.println("Git testing5");
 		
 		LandingPage landingPage = new LandingPage(driver); //this driver will pass to LandingPage class
 		
