@@ -43,6 +43,8 @@ public class StandaloneTest {
 		System.out.println("Git develop branch 3");
 		System.out.println("Git develop branch 4");
 		
+		System.out.println("Git master branch 5");
+		
 		LandingPage landingPage = new LandingPage(driver); //this driver will pass to LandingPage class
 		
 		driver.findElement(By.id("userEmail")).sendKeys("gau123@gmail.com");
